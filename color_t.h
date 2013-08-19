@@ -15,12 +15,12 @@ private:
 	float Blue;
 public: 
 	/*Constructors*/
-	color_t(int RED, int GREEN, int BLUE);
+	color_t(float RED, float GREEN, float BLUE);
 	color_t();
 	/*setters */
-	void setRedColor(int RED);
-	void setGreenColor(int GREEN);
-	void setBlueColor(int BLUE);
+	void setRedColor(float RED);
+	void setGreenColor(float GREEN);
+	void setBlueColor(float BLUE);
 	/*getters*/
 	float getRedColor();
 	float getGreenColor();

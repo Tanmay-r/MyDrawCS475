@@ -6,6 +6,7 @@
 #include <iostream>
 #include <GL/glut.h>
 #include"color_t.h"
+#include"point_t.h"
 
 class pen_t{
 	private:
