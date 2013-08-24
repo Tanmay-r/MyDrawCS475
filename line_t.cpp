@@ -7,12 +7,16 @@ using namespace std;
 line_t::line_t(){
 	endpoint1 = new point_t();
 	endpoint2 = new point_t();
-	//linecolor = new color_t();
+	linecolor = new color_t();
 }
 
-line_t::line_t(point_t &p1, point_t &p2){
+line_t::line_t(point_t &p1, point_t &p2,color_t & c){
 	endpoint1 = &p1;
-	endpoint2 = &p2; 
+	endpoint2 = &p2;
+  linecolor = new color_t();
+  linecolor->setRedColor(c.getRedColor());
+  linecolor->setGreenColor(c.getGreenColor());
+  linecolor->setBlueColor(c.getBlueColor());
 	//linecolor = &c;
 }
 

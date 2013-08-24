@@ -9,7 +9,7 @@ using namespace std;
 class line_t{
 	point_t * endpoint1;
 	point_t * endpoint2;
-	//color_t * linecolor;
+	color_t * linecolor;
 	void swap(int &x, int &y);			//private function to swap two integer variables. (used in bresenham's implementation)
 
 public:

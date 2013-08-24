@@ -1,6 +1,13 @@
 #include "drawing_t.h"
 
 
+
+void drawing_t::setCanvas(canvas_t & can){
+	canvas=*can;
+}
+canvas_t & drawing_t::getCanvas(){
+	return *canvas;
+}
 void drawing_t::addPoint(point_t &p){
 	points.push_back(&p);
 }
